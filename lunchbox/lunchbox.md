@@ -7,4 +7,4 @@ Inspired by the [Stacked Sandwiches Sudoku](https://logic-masters.de/Raetselport
 ## Rules
 
 * Normal sudoku rules apply.
-* Arrows of the same color (white or black) pointing at each other in the same column or row must contain the digits of the sum of the enclosed cells, in any order. For instance, the white arrows pointing at each other in row 2 enclose 3 cells. Examples of valid options for these cells are 1 3 4 5 2 because 3 + 4 + 5 = 12, but also 1 7 5 9 2 because 7 + 5 + 9 = 21. In both examples, the 1 and 2 must go into the cells containing the white arrows.
+* Arrows of the same color (white or black) pointing at each other in the same column or row must contain the digits of the sum of the enclosed cells, in any order. For instance, the white arrows pointing at each other in row 2 enclose 3 cells. Examples of valid options for the 5 cells (-> arrow cell, enclosed 3 cells, <- arrow cell) are 1 3 4 5 2 because 3 + 4 + 5 = 12, but also 1 7 5 9 2 because 7 + 5 + 9 = 21. In both examples, the 1 and 2 must go into the cells containing the white arrows.
