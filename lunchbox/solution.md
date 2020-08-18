@@ -12,7 +12,7 @@ All of the 6 digits in a 6-cell sandwich with a 20-29-total however always sum t
 As the total is 90, we _must_ therefore have two 10-19-total sandwiches and one 20-29-total sandwich.
 One of the 10-19-total sandwiches must be in row 4.
 The two 1's of boxes 4 and 5 must therefore be in one of the six sandwich crust cells, and so the 1 in the inner column 4 sandwich (white arrows) gets resolved.
-The total of the 6-cell row sandwich must be either 18 (3+4+5+6) or 19 (3+4+5+7).
+The total of the 6-cell sandwich in row 4 must be either 18 (3+4+5+6) or 19 (3+4+5+7).
 The sum of the digits in the entire sandwich is 18+1+8 = 27 or 19+1+9 = 29, which leaves a remainder of 90-27 = 63 or 90-29 = 61 for the other two sandwiches.
 Consider options for the remaining 10-19-total and 20-29-total. We cannot make a 29 total (repeated 9) or a 28 total (repeated 8).
 The maximum sum of the 6 20-29-total sandwich digits is therefore 27+2+7 = 36.
@@ -31,7 +31,7 @@ We can rule out 7, 8 and 9 trivially, and we can rule out 2 (yields repeated 6),
 The total of the sandwich in column 8 is now 29.
 The options of the outlier cell in r9c4 are also limited to 2, 5, 7, 8 and 9.
 9 and 5 are ruled out by existing digits. 2 and 8 are ruled out because they force a 35 or 32 total in a column already containing a 3. So this cell is a 7.
-Consider the 5-cell sandwich in row 2. Its total is now 14 or 15. 14 is ruled out because we cannot sum to 14 with the limited remaining set of digits.
+The cell in row 2, column 4 is now a naked single, so the total of the 5-cell sandwich in row 2 is 15. 14 is ruled out because we cannot sum to 14 with the limited remaining set of digits.
 So the total of this sandwich is 15, and this total can only be made with digits 3+4+8.
 The sandwich in column 9 can now be resolved, then finally the 12 sandwich we started with.
 The rest of the grid is done by regular sudoku.
