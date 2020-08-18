@@ -31,7 +31,7 @@ We can rule out 7, 8 and 9 trivially, and we can rule out 2 (yields repeated 6),
 The total of the sandwich in column 8 is now 29.
 The options of the outlier cell in r9c4 are also limited to 2, 5, 7, 8 and 9.
 9 and 5 are ruled out by existing digits. 2 and 8 are ruled out because they force a 35 or 32 total in a column already containing a 3. So this cell is a 7.
-The cell in row 2, column 4 is now a naked single, so the total of the 5-cell sandwich in row 2 is 15. 14 is ruled out because we cannot sum to 14 with the limited remaining set of digits.
+The cell in row 2, column 4 is now a naked single, so the total of the 5-cell sandwich in row 2 is 15.
 So the total of this sandwich is 15, and this total can only be made with digits 3+4+8.
 The sandwich in column 9 can now be resolved, then finally the 12 sandwich we started with.
 The rest of the grid is done by regular sudoku.
